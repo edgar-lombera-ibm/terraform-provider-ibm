@@ -1,3 +1,3 @@
-output "global ip"{
+output "global_ip"{
   value = "http://${ibm_network_public_ip.test-global-ip.ip_address}"
 }
